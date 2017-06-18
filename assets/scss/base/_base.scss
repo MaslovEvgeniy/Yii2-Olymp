@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #eee;
+  //font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.6;
+  color: #666;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+.section__title {
+  text-transform: uppercase;
+  h2 {
+    margin-bottom: 0;
+  }
+  span {
+    color: $color-main;
+  }
+}
+
+.mdl-card {
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1024px){
+  .mdl-layout--fixed-drawer>.mdl-layout__content {
+    margin-left: 0;
+  }
+}
+
+

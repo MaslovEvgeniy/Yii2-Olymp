@@ -1,0 +1,27 @@
+.mdl-layout__drawer {
+  background-color: #474747;
+  color: #fff;
+
+  .mdl-navigation .mdl-navigation__link {
+    color: #fff;
+
+    &:hover {
+      background-color: rgba(0,0,0,0.4);
+    }
+  }
+
+  min-height: 100%;
+
+  .mdl-layout__title {
+    background-color: $color-main;
+  }
+
+
+  .team-logo {
+    padding: 10px 0 10px 30px;
+  }
+
+  i {
+    margin-right: 15px;
+  }
+}

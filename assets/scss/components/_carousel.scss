@@ -1,0 +1,19 @@
+#matches-sl {
+  .owl-nav .disabled{
+    visibility: hidden;
+  }
+
+  .owl-prev i{
+    color: #fff;
+    position: absolute;
+    top:40%;
+    left: 1%;
+  }
+
+  .owl-next i{
+    color: #fff;
+    position: absolute;
+    top:40%;
+    right: 1%;
+  }
+}

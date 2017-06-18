@@ -1,0 +1,24 @@
+.matches {
+  .mdl-data-table {
+    margin: 0 auto;
+    td {
+      padding: 12px;
+    }
+  }
+
+  .mdl-card {
+    overflow-x: scroll;
+  }
+
+  &-table {
+    width: 100%;
+    margin: 20px auto;
+  }
+  th {
+    text-align: center;
+  }
+
+  .match__result {
+    text-align: center;
+  }
+}

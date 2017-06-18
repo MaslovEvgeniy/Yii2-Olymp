@@ -1,0 +1,47 @@
+.contact {
+  text-align: center;
+}
+
+.admin-card {
+  &__image {
+    text-align: center;
+    margin-top: 15px;
+    padding: 2px;
+    border: solid 3px $color-main;
+    border-radius: 50%;
+    height: 128px;
+    width: 128px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+
+  &__contacts {
+    div {
+      display: inline-block;
+    }
+  }
+
+  h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: $color-main;
+  }
+
+  h6 {
+    margin-top: 0
+  }
+
+  p {
+    padding: 0 25px 0 2px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__social {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,62 @@
+section.closest-matches {
+  .match {
+    height: 200px;
+    background-color: #363533;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-right: 1px solid #fff;
+
+    h4 {
+      margin: 0;
+      display: inline-block;
+      text-align: center;
+    }
+
+    &__team {
+      display: inline-block;
+      img {
+        max-width: 82px;
+        max-height: 92px;
+        margin: 0 auto;
+      }
+
+      &--home {
+        position: absolute;
+        top:25%;
+        left: 15%;
+      }
+
+      &--away {
+        position: absolute;
+        top:25%;
+        left: 70%;
+      }
+    }
+
+    &__tournament {
+      margin-top: 130px;;
+    }
+
+    .divider {
+      position: absolute;
+      top:42%;
+      left: 50%;
+      color: #fff;
+      font-size:32px;
+    }
+  }
+
+  .result__score {
+    position: absolute;
+    top: 45%;
+    &--home {
+      left: 40%;
+    }
+
+    &--away {
+      left: 60%;
+    }
+  }
+}

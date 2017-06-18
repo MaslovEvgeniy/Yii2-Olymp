@@ -1,0 +1,99 @@
+section.tournaments {
+  th {
+    background-color: #e5e5e5;
+  }
+
+
+  .tournament {
+    margin: 20px 0;
+
+    &__name {
+      text-align: center;
+    }
+
+    table td{
+      text-align: center;
+    }
+
+    &__tour {
+      font-size: 15px;
+    }
+
+    .tour__number {
+      margin-bottom: 5px;
+    }
+
+    h4 {
+      position: relative;
+      margin-bottom: 20px;
+
+      &:after {
+        display: block;
+        width: 40px;
+        height: 1px;
+        margin-left: -20px;
+        content: "";
+        background-color: $color-main;
+        position: absolute;
+        bottom: -7px;
+        left: 50%;
+      }
+    }
+    #tours-sl {
+      .owl-nav {
+        .disabled {
+          visibility: hidden;
+        }
+      }
+
+      .owl-prev {
+        i {
+          color: $color-main;
+          position: absolute;
+          top: -8%;
+          left: 1%;
+        }
+      }
+
+      .owl-next {
+        i {
+          color: $color-main;
+          position: absolute;
+          top:-8%;
+          right: 1%;
+        }
+      }
+    }
+
+    &__news {
+      .articles {
+        margin: 20px;
+      }
+
+      .article {
+        margin-left: 20px;
+
+        &__link {
+          margin: 0;
+          font-size: 15px;
+          a {
+            color: #000;
+
+            &:hover {
+              color: #2A4DB3;
+            }
+          }
+        }
+
+        &__date {
+          display: inline-block;
+          margin: 0;
+        }
+      }
+      hr {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}

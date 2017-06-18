@@ -1,0 +1,38 @@
+.form-card {
+  height: 100%;
+  text-align: left;
+
+  &__title {
+    background-color: $color-main;
+    color: #fff;
+    padding: 5px 20px;
+    i {
+      vertical-align: middle;
+    }
+
+    h4 {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+  }
+
+  &__inputs {
+    padding: 20px;
+    textarea {
+      padding-bottom: 0px;
+    }
+  }
+
+  &__actions {
+    text-align: right;
+
+    .mdl-button {
+      margin: 9px 20px;
+    }
+    hr {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

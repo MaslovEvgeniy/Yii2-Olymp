@@ -1,0 +1,43 @@
+.player {
+  &__info {
+    text-align: center;
+  }
+
+  &__image {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+    img {
+      height: 164px;
+      margin: 0 auto;
+    }
+  }
+
+  &__number {
+    width: 120px;
+    height: 100px;
+    left: -90px;
+    top: 0;
+    padding: 15px 15px 0 0;
+    box-sizing: border-box;
+    text-align: right;
+    background: #363533;
+    position: absolute;
+    font-size: 20px;
+    color: #72bf48;
+    transform: skew(-33deg);
+    -webkit-transform: skew(-33deg);
+    z-index: 2;
+
+    span {
+      transform: skew(33deg);
+      -webkit-transform: skew(33deg);
+      display: block;
+    }
+  }
+
+  &__name {
+    margin-top: 6px;
+  }
+}
